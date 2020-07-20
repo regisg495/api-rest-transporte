@@ -337,3 +337,4 @@ INSERT INTO usuario_permissao(usuario_id, permissao_nome)
 VALUES (5, 'programador');
 INSERT INTO usuario_permissao(usuario_id, permissao_nome)
 VALUES (6, 'admin');
+
