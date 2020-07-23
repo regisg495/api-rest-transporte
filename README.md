@@ -8,12 +8,12 @@ O link com a explicação do código do projeto está em https://www.youtube.com
 As Entidades do projeto são:
 Linhas, Paradas, Veiculos, PosicaoVeiculo, Usuario, Permissão.
 
-Cada linha passa de 0 a n paradas.
-Cada parada tem de 0 a n linhas que passam por ela
-Cada veiculo pertence a uma linha.
-Cada veículo tem 0 a 1 posição cadastrada.
-Cada usuário pode ter muitas permissões.
-Muitos usuários podem ter muitas permissões.
+Cada linha passa de 0 a n paradas\
+Cada parada tem de 0 a n linhas que passam por ela\
+Cada veiculo pertence a uma linha\
+Cada veículo tem 0 a 1 posição cadastrada\
+Cada usuário pode ter muitas permissões\
+Muitos usuários podem ter muitas permissões
 
 O diagrama que melhor representa o modelo físico do banco de dados está abaixo.
 
