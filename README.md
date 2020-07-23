@@ -1,6 +1,6 @@
 # programa-estagio-aiko
 
-O link de explicação dos testes do projeto está em https://www.youtube.com/watch?v=RqmUmxVg904
+O link de explicação dos testes do projeto está em https://www.youtube.com/watch?v=RqmUmxVg904\
 O link com a explicação do código do projeto está em https://www.youtube.com/watch?v=bscYY5VZSx4&t=6s
 
 # 1 Entidades
