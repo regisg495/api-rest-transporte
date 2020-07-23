@@ -19,7 +19,7 @@ O diagrama que melhor representa o modelo físico do banco de dados está abaixo
 
 ![Screenshot_7](https://user-images.githubusercontent.com/41974237/88271605-c2ede300-ccad-11ea-95f4-590dbdd13387.png)
 
-# 1 - Importando o Projeto
+# 2 - Importando o Projeto
 
 Primeiro, importe o projeto usando sua IDE de preferência. 
 Uma vez com o projeto no seu computador, é hora de realizar a configuração do projeto para rodar na sua máquina. 
@@ -40,7 +40,7 @@ Nos dados acima, coloque os dados do seu usuário e sua senha. O database transp
 Uma vez realizados os procedimentos acima, você já pode executar o projeto. Basta executar a classe chamada TransporteApiApplication, que esta em src/main/java/com/br/transporteapi.
 Caso queira executar via Maven, basta rodar o seguinte comando: mvn springboot:run
 
-# 2 - Padrão do Sistema
+# 3 - Padrão do Sistema
 
 Há um parametro de contexto chamado aikoapi nas urls, logo todas as requisições devem ser enviadas para http://localhost:8080/aikoapi
 
@@ -57,7 +57,7 @@ Exemplo:
 
 ![Screenshot_3](https://user-images.githubusercontent.com/41974237/88270235-b1a3d700-ccab-11ea-8abb-03fa36dac225.png)
 
-# 2 - Autenticando-se no Sistema
+# 4 - Autenticando-se no Sistema
 
 Para realizar a autenticação no Sistema, com o projeto rodando, dispare uma requisição post para http://localhost:8080/aikoapi/login, com algum dos usuários que estão salvos.
 Você receberá um token de acesso.
@@ -79,7 +79,7 @@ Foto de exemplo:
 
 Caso realize a autenticação via postman, não será necessário escrever Bearer, basta enviar a chave direto.
 
-# 3 Endpoints
+# 5 Endpoints
 Os endpoints são:
 /linha - refere-se às linhas
 /parada - refere-se às paradas
@@ -90,6 +90,6 @@ Os endpoints são:
 Todas as requisições do tipo GET estão permitidas, já as requisições de tipo POST e PUT requerem permissão de dba, ou programador, ou admin. Qualquer uma das três.
 As requisições do tipo DELETE requerem permissão de admin
 
-# 4 Autenticação via Postman
+# 6 Autenticação via Postman
 
 
