@@ -55,6 +55,7 @@ Sua chave é:
 Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhaWtvIiwiaXNzIjoidHJhbnNwb3J0ZS1hcGkiLCJpYXQiOjE1OTU0OTU2NjEsImV4cCI6MTU5NTUwNjQ2MX0.LaszQq4uGNsVMxs5OHY3bsDfL_haCxSOmDbq3JJyOY4
 
 Foto de exemplo:
+
 ![Screenshot_6](https://user-images.githubusercontent.com/41974237/88270627-4c9cb100-ccac-11ea-83a0-8d9a6cd35e66.png)
 
 Caso realize a autenticação via postman, não será necessário escrever Bearer, basta enviar a chave direto.
