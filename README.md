@@ -98,6 +98,15 @@ Para fazer autenticação via Postman, basta acessar o mesmo endpoint, Post para
 
 Exemplo:
 
+![Screenshot_8](https://user-images.githubusercontent.com/41974237/88274322-e61a9180-ccb1-11ea-8a1c-2dc2ba84a5e6.png)
+
+Copie a chave de acesso que lhe foi entregue.
+
+A cada requisição protegida que você enviar, terá de enviar o cabeçalho de autorização.
+Para deletar um veículo, por exemplo, você deve antes ir na aba "Authorization", escolher o tipo "bearer" e então inserir sua chave de acesso.
+Exemplo:
+
+![Screenshot_9](https://user-images.githubusercontent.com/41974237/88274521-3b56a300-ccb2-11ea-9e97-8a662af6f1e0.png)
 
 
 
