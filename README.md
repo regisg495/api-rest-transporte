@@ -6,11 +6,11 @@ O link com a explicação do código do projeto está em https://www.youtube.com
 # 1 Entidades
 
 As Entidades do projeto são:
-Linhas\ 
-Paradas\ 
-Veiculos\ 
-PosicaoVeiculo\ 
-Usuario\ 
+Linhas\
+Paradas\
+Veiculos\
+PosicaoVeiculo\
+Usuario\
 Permissão
 
 Cada linha passa de 0 a n paradas\
