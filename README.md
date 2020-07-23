@@ -13,6 +13,9 @@ spring.datasource.url=jdbc:mysql://localhost:3306/transporte_api\
 spring.datasource.username=seuuser\
 spring.datasource.password=suasenha
 
+Imagem do arquivo\
+![Screenshot_2](https://user-images.githubusercontent.com/41974237/88269018-b1a2d780-cca9-11ea-8322-f6f3d3d96952.png)
+
 Nos dados acima, coloque os dados do seu usuário e sua senha. O database transporte_api eu deixei como padrão ao criar o banco de dados. Caso você queira alterar, basta mudar o arquivo data.sql
 
 Uma vez realizados os procedimentos acima, você já pode executar o projeto. Basta executar a classe chamada TransporteApiApplication, que esta em src/main/java/com/br/transporteapi.
@@ -24,17 +27,16 @@ Há um parametro de contexto chamado aikoapi nas urls, logo todas as requisiçõ
 
 Por padrão, o swagger está funcionando na URL http://localhost:8080/aikoapi/swagger-ui.html
 
+Exemplo:
+
+![Screenshot_1](https://user-images.githubusercontent.com/41974237/88270093-7e614800-ccab-11ea-844d-d66fe89d83e5.png)
+
 Como é necessária autenticação de usuário, você precisará do login e senha dos usuários. Eles estão no arquivo data.sql. Na parte da inserção dos usuários.
 Onde deixei a senha comentada logo acima da inserção de cada usuário.
 
 Exemplo:
 
-54321
-INSERT INTO usuarios (nome, email, cpf, telefone, senha, data_nascimento)
-VALUES ('Camila', 'camila123@gmail.com', '22222233355',
-        '53999991111', '$2y$12$tEzP5wjVGt0M3abkIh4Kz.B3CBNCmrcgqibHnRvSWUrQ0yq32.6bm', '1991-02-02');
-        
-A senha neste caso é 54321
+![Screenshot_3](https://user-images.githubusercontent.com/41974237/88270235-b1a3d700-ccab-11ea-8abb-03fa36dac225.png)
 
 # 2 - Autenticando-se no Sistema
 
@@ -42,18 +44,18 @@ Para realizar a autenticação no Sistema, com o projeto rodando, dispare uma re
 Você receberá um token de acesso.
 Exemplo:
 
-{
-  "token": {
-    "acessKey": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhaWtvIiwiaXNzIjoidHJhbnNwb3J0ZS1hcGkiLCJpYXQiOjE1OTU0ODg3ODAsImV4cCI6MTU5NTQ5OTU4MH0.8_YjD8y8-s0NkF4eH4Bl_v50oMYDS51EC6NA4BuDT9w",
-    "authenticationType": "Bearer"
-  }
-}
+![Screenshot_4](https://user-images.githubusercontent.com/41974237/88270310-d304c300-ccab-11ea-8a00-832adbb40194.png)
+
 
 O tipo de autorização refere-se ao tipo do token, já a chave é a sua chave de acesso.
 Copie a chave. Com ela, caso esteja no swagger, clique no cadeado, em que está escrito "Authorize". Digite o tipo de chave (Bearer), espaço e a sua chave.
 Exemplo:
 
-Bearer AWHWIEIQ34820OEPWQKDCNVDNIJ3JUR932UR8JFC
+Sua chave é:
+Bearer AWHWIE
+
+Foto de exemplo:
+![Screenshot_5](https://user-images.githubusercontent.com/41974237/88270439-08a9ac00-ccac-11ea-906e-3eea8249af23.png)
 
 Caso realize a autenticação via postman, não será necessário escrever Bearer, basta enviar a chave direto.
 
