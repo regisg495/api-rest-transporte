@@ -57,9 +57,11 @@ Exemplo:
 
 ![Screenshot_3](https://user-images.githubusercontent.com/41974237/88270235-b1a3d700-ccab-11ea-8abb-03fa36dac225.png)
 
+# Por padrão, também criei um usuário de login aiko e senha aiko. Com permissão de admin
+
 # 4 - Autenticando-se no Sistema
 
-Para realizar a autenticação no Sistema, com o projeto rodando, dispare uma requisição post para http://localhost:8080/aikoapi/login, com algum dos usuários que estão salvos.
+Para realizar a autenticação no Sistema, com o projeto rodando, dispare uma requisição post para http://localhost:8080/aikoapi/usuario/login, com algum dos usuários que estão salvos.
 Você receberá um token de acesso.
 Exemplo:
 
@@ -85,14 +87,14 @@ Os endpoints são:
 /parada - refere-se às paradas
 /veiculo - refere´se aos veículos
 /veiculo/posicao - refere-se à posição dos veícuslo
-/login - para logar
+/usuario/login - para logar
 
 Todas as requisições do tipo GET estão permitidas, já as requisições de tipo POST e PUT requerem permissão de dba, ou programador, ou admin. Qualquer uma das três.
 As requisições do tipo DELETE requerem permissão de admin
 
 # 6 Autenticação via Postman
 
-Para fazer autenticação via Postman, basta acessar o mesmo endpoint. http://localhost:8080/aikoapi/login e informar suas credenciais de acesso.
+Para fazer autenticação via Postman, basta acessar o mesmo endpoint, Post para http://localhost:8080/aikoapi/usuario/login informarmando suas credenciais de aces.
 
 Exemplo:
 
