@@ -92,4 +92,10 @@ As requisições do tipo DELETE requerem permissão de admin
 
 # 6 Autenticação via Postman
 
+Para fazer autenticação via Postman, basta acessar o mesmo endpoint. http://localhost:8080/aikoapi/login e informar suas credenciais de acesso.
+
+Exemplo:
+
+
+
 
