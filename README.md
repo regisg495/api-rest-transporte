@@ -8,10 +8,9 @@ Feito isso, execute o script que está no arquivo data.sql, que está na raiz do
 
 Uma vez terminado o dump do banco de dados. É hora de alterar as configurações do Hibernate, vá na arquivo \src\main\resources\application.properties e altere as seguintes configurações:
 
- datasource
-spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
-spring.datasource.url=jdbc:mysql://localhost:3306/transporte_api
-spring.datasource.username=seuuser
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver\
+spring.datasource.url=jdbc:mysql://localhost:3306/transporte_api\
+spring.datasource.username=seuuser\
 spring.datasource.password=suasenha
 
 Nos dados acima, coloque os dados do seu usuário e sua senha. O database transporte_api eu deixei como padrão ao criar o banco de dados. Caso você queira alterar, basta mudar o arquivo data.sql
