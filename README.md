@@ -3,6 +3,22 @@
 O link de explicação dos testes do projeto está em https://www.youtube.com/watch?v=RqmUmxVg904
 O link com a explicação do código do projeto está em https://www.youtube.com/watch?v=bscYY5VZSx4&t=6s
 
+# 1 Entidades
+
+As Entidades do projeto são:
+Linhas, Paradas, Veiculos, PosicaoVeiculo, Usuario, Permissão.
+
+Cada linha passa de 0 a n paradas.
+Cada parada tem de 0 a n linhas que passam por ela
+Cada veiculo pertence a uma linha.
+Cada veículo tem 0 a 1 posição cadastrada.
+Cada usuário pode ter muitas permissões.
+Muitos usuários podem ter muitas permissões.
+
+O diagrama que melhor representa o modelo físico do banco de dados está abaixo.
+
+![Screenshot_7](https://user-images.githubusercontent.com/41974237/88271605-c2ede300-ccad-11ea-95f4-590dbdd13387.png)
+
 # 1 - Importando o Projeto
 
 Primeiro, importe o projeto usando sua IDE de preferência. 
@@ -74,6 +90,6 @@ Os endpoints são:
 Todas as requisições do tipo GET estão permitidas, já as requisições de tipo POST e PUT requerem permissão de dba, ou programador, ou admin. Qualquer uma das três.
 As requisições do tipo DELETE requerem permissão de admin
 
-
+# 4 Autenticação via Postman
 
 
