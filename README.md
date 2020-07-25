@@ -104,6 +104,7 @@ Exemplo:
 
 # 6 - Endpoints
 Os endpoints são:
+
 /linha - refere-se às linhas\
 /parada - refere-se às paradas\
 /veiculo - refere´se aos veículos\
