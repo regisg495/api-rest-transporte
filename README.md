@@ -4,7 +4,7 @@ O link de explicação dos testes do projeto está em https://www.youtube.com/wa
 
 O link com a explicação do código do projeto está em https://www.youtube.com/watch?v=bscYY5VZSx4&t=6s
 
-# 1 Entidades
+# 1 - Entidades
 
 As Entidades do projeto são:
 Linhas\
