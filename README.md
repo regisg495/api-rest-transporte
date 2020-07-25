@@ -65,7 +65,7 @@ Exemplo:
 
 # Por padrão, também criei um usuário de login aiko e senha aiko. Com permissão de admin
 
-# 4 - Autenticando-se no Sistema
+# 4 - Autenticação pelo Swagger
 
 Para realizar a autenticação no Sistema, com o projeto rodando, dispare uma requisição post para http://localhost:8080/aikoapi/usuario/login, com algum dos usuários que estão salvos.
 Você receberá um token de acesso.
