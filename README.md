@@ -85,18 +85,7 @@ Foto de exemplo:
 
 ![Screenshot_6](https://user-images.githubusercontent.com/41974237/88270627-4c9cb100-ccac-11ea-83a0-8d9a6cd35e66.png)
 
-# 5 Endpoints
-Os endpoints são:
-/linha - refere-se às linhas
-/parada - refere-se às paradas
-/veiculo - refere´se aos veículos
-/veiculo/posicao - refere-se à posição dos veícuslo
-/usuario/login - para logar
-
-Todas as requisições do tipo GET estão permitidas, já as requisições de tipo POST e PUT requerem permissão de dba, ou programador, ou admin. Qualquer uma das três.
-As requisições do tipo DELETE requerem permissão de admin
-
-# 6 Autenticação via Postman
+# 5 - Autenticação via Postman
 
 Para fazer autenticação via Postman, basta acessar o mesmo endpoint, Post para http://localhost:8080/aikoapi/usuario/login informarmando suas credenciais de aces.
 
@@ -113,4 +102,14 @@ Exemplo:
 ![Screenshot_9](https://user-images.githubusercontent.com/41974237/88274521-3b56a300-ccb2-11ea-9e97-8a662af6f1e0.png)
 
 
+# 6 - Endpoints
+Os endpoints são:
+/linha - refere-se às linhas\
+/parada - refere-se às paradas\
+/veiculo - refere´se aos veículos\
+/veiculo/posicao - refere-se à posição dos veículos\
+/usuario/login - para logar
+
+Todas as requisições do tipo GET estão permitidas, já as requisições de tipo POST e PUT requerem permissão de dba, ou programador, ou admin. Qualquer uma das três.
+As requisições do tipo DELETE requerem permissão de admin
 
